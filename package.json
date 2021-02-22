@@ -1,13 +1,13 @@
 {
     "name": "@pentcloud/strapi-provider-email-pentcloud",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Provider for send mails with Amazon SES",
     "main": "./lib",
     "directories": {
         "test": "test"
     },
     "files": [
-        "dist"
+        "lib"
     ],
     "dependencies": {
         "node-fetch": "^2.6.1",
