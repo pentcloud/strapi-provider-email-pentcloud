@@ -1,0 +1,43 @@
+{
+    "name": "@pentcloud/strapi-provider-email-pentcloud",
+    "version": "1.0.0",
+    "description": "Provider for send mails with Amazon SES",
+    "main": "./lib",
+    "directories": {
+        "test": "test"
+    },
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "node-fetch": "^2.6.1",
+        "strapi-utils": "3.4.0"
+    },
+    "devDependencies": {
+        "prettier": "2.2.1"
+    },
+    "engines": {
+        "node": ">=10.16.0 <=14.x.x",
+        "npm": ">=6.0.0"
+    },
+    "scripts": {
+        "prettier": "npx prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pentcloud/strapi-provider-email-pentcloud.git"
+    },
+    "keywords": [
+        "strapi",
+        "provider",
+        "email",
+        "ses",
+        "amazon"
+    ],
+    "author": "William Chanchavac",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pentcloud/strapi-provider-email-pentcloud/issues"
+    },
+    "homepage": "https://github.com/pentcloud/strapi-provider-email-pentcloud#readme"
+}
